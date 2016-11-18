@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>商城页面</title>
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class="header">
+    <a class="back" href=""></a>
+    <input class="search" placeholder="蚂蚁海淘，欢迎您的选购" />
+    <a class="personal" href=""></a>   
+</div>
+<div class="kinds">
+    <ul class="clear">
+        <li class="cur"><a href=""><img src="image/icon3.png"><p>爆款</p></a></li>
+        <li><a href=""><img src="image/icon4.png"><p>衣服</p></a></li>
+        <li><a href=""><img src="image/icon5.png"><p>饰品</p></a></li>
+        <li><a href=""><img src="image/icon6.png"><p>箱包</p></a></li>
+        <li><a href=""><img src="image/icon7.png"><p>配件</p></a></li>
+        <li><a href=""><img src="image/icon8.png"><p>家居</p></a></li>
+        <li><a href=""><img src="image/icon9.png"><p>办公</p></a></li>
+    </ul>
+</div>
+<!--滚动开始-->
+<div class="slide" id="slide">
+    <ul class="slide_box">
+        <li><a href=""><img src="image/1.jpg" ></a></li>
+        <li><a href=""><img src="image/2.jpg" ></a></li>
+        <li><a href=""><img src="image/3.jpg" ></a></li>
+    </ul>
+    <div class="slide_points">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<!--滚动结束-->
+<!-- 注册链接开始 -->
+<div class="reg">
+    <img src="image/4.png">
+    <a href=""><img src="image/5.png"></a>
+</div>
+<!-- 注册链接结束 -->
+<div class="items">
+    <p class="head">最新爆款<br><span>NEW HOT</span></p>
+    <ul>
+        <li class="item">
+            <img class="item_pic" src="https://haitao-resource.b0.upaiyun.com/product/49/1466653919576b5cdf7e7be.jpg!/fw/100/fh/100">
+            <p>KOSE樱花限定<br><span>高丝 丰靡美姬  梦幻妆容 宛如樱花瓣般的温柔色彩</span></p>
+            <div class="item_bt"><span>限时特惠</span>¥129<del>¥159</del><a class="item_buy" href=""><img src="image/6.png"></a></div>
+        </li>
+        <li class="item">
+            <img class="item_pic" src="https://haitao-resource.b0.upaiyun.com/product/49/1466653919576b5cdf7e7be.jpg!/fw/100/fh/100">
+            <p>KOSE樱花限定<br><span>高丝 丰靡美姬  梦幻妆容 宛如樱花瓣般的温柔色彩</span></p>
+            <div class="item_bt"><span>限时特惠</span>¥129<del>¥159</del><a class="item_buy" href=""><img src="image/6.png"></a></div>
+        </li>
+        <li class="item">
+            <img class="item_pic" src="https://haitao-resource.b0.upaiyun.com/product/49/1466653919576b5cdf7e7be.jpg!/fw/100/fh/100">
+            <p>KOSE樱花限定<br><span>高丝 丰靡美姬  梦幻妆容 宛如樱花瓣般的温柔色彩</span></p>
+            <div class="item_bt"><span>限时特惠</span>¥129<del>¥159</del><a class="item_buy" href=""><img src="image/6.png"></a></div>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript" src="js/libs.js"></script>
+<script type="text/javascript">
+    require.config({
+        baseUrl: 'js/',
+        paths: {
+            "utility":"util"
+        }
+    });
+    require(['pages/hj_index']);
+</script>
+</body>
+</html>
