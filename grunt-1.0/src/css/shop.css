@@ -1,0 +1,52 @@
+/*店铺承诺*/
+.buyer-shop{background: #f5f5f5;overflow: hidden;}
+.buyer-shop .banner{position: relative;top: 0;left: 50%;margin-left: -960px;}
+.buyer-shop .promise{background: #fff;}
+.buyer-shop .promise ul{border:1px solid #ccc;border-right: none;margin-top: 20px;}
+.buyer-shop .promise li{float: left;width: 241px;height: 100px;border-right: 1px solid #ccc;line-height: 100px;text-align: center;font-size: 18px;}
+.buyer-shop .promise li span{padding-left: 60px;height: 50px;background: url(../img/haitao_icon6.png) no-repeat;line-height: 50px;display: inline-block;margin-top: 25px;}
+.buyer-shop .promise li span.icon1{background-position:0 0;}
+.buyer-shop .promise li span.icon2{background-position:0 -64px;}
+.buyer-shop .promise li span.icon3{background-position:0 -127px;}
+.buyer-shop .promise li span.icon4{background-position:0 -191px;}
+.buyer-shop .promise li span.icon5{background-position:0 -250px;}
+/*品牌热卖*/
+.buyer-shop .hotclass{width: 1212px;font-size: 0;margin-top: 20px;position: relative;}
+.buyer-shop .hotclass a{width: 20%;}
+.buyer-shop .hotclass span{position: absolute;left: -30px;top: 0;width: 14px;padding: 8px;font-size: 14px;background: #ffa23e;color: #fff;}
+/*商品热卖*/
+.buyer-shop .hotpro{width: 1212px;margin-top: 20px;background: #fff;position: relative;}
+.buyer-shop .hotpro .bar{position: absolute;left: -30px;top: 0;width: 14px;padding: 8px;font-size: 14px;background: #ffa23e;color: #fff;}
+.buyer-shop .hotpro ul{border-left:1px solid #ccc;}
+.buyer-shop .hotpro li{float: left;width: 242px;height: 327px;position: relative;font-size: 14px;margin-bottom:-1px;}
+.buyer-shop .hotpro li div{padding: 20px;border: 1px solid #ccc;border-left: none;text-align: center;}
+.buyer-shop .hotpro li .goods_img{display: block;width: 200px;height: 200px;}
+.buyer-shop .hotpro p.goods_country,.buyer-shop .hotpro p.goods_text{height: 25px;line-height: 25px;}
+.buyer-shop .hotpro p.goods_country img{width: 25px;}
+.buyer-shop .hotpro p.goods_text a{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+.buyer-shop .hotpro p.goods_price{color: #ff5c5c;height: 25px;line-height: 25px;margin-top: 10px;font-size: 20px;}
+.buyer-shop .hotpro p.goods_price span{border: 1px solid;padding: 2px;border-radius: 5px;font-size: 12px;vertical-align: top;margin-right: 10px;}
+.buyer-shop .hotpro i{position: absolute;top: 0;left: 0;width: 50px;height: 50px;background: url(../img/haitao_bg11.jpg);background-size: 100%;}
+/*专区公用*/
+.buyer-shop .ad{width: 1212px;margin: 20px auto;}
+.buyer-shop .section{margin-bottom: 20px;width: 1212px;}
+.buyer-shop .section .title{height: 48px;line-height:48px;text-indent: 10px;font-size: 18px;}
+.buyer-shop .section .title span{float: right;margin-right: 10px;font-size: 16px;color: #333;}
+.buyer-shop .section .title.znk{border-left: 20px solid #0096ff;border-bottom: 3px solid #0096ff;color: #0096ff;}
+.buyer-shop .section .title.jknf{border-left: 20px solid #ff758e;border-bottom: 3px solid #ff758e;color: #ff758e;}
+.buyer-shop .section .title.bbxh{border-left: 20px solid #ff875d;border-bottom: 3px solid #ff875d;color: #ff875d;}
+.buyer-shop .section .title.aqwy{border-left: 20px solid #58bc5a;border-bottom: 3px solid #58bc5a;color: #58bc5a;}
+.buyer-shop .section .title.yyfs{border-left: 20px solid #24ccce;border-bottom: 3px solid #24ccce;color: #24ccce;}
+.buyer-shop .section .title.bbhf{border-left: 20px solid #924ee6;border-bottom: 3px solid #924ee6;color: #924ee6;}
+/*专区*/
+.buyer-shop .section{background: #fff;}
+.buyer-shop .section ul{border-left: 1px solid #ccc;}
+.buyer-shop .section li{float: left;width: 242px;height: 326px;position: relative;font-size: 14px;}
+.buyer-shop .section li div{padding: 20px;border: 1px solid #ccc;border-left: none;border-top: none;text-align: center;}
+.buyer-shop .section li .goods_img{display: block;width: 200px;height: 200px;}
+.buyer-shop .section p.goods_country,.buyer-shop .section p.goods_text{height: 25px;line-height: 25px;}
+.buyer-shop .section p.goods_country img{width: 25px;}
+.buyer-shop .section p.goods_text a{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+.buyer-shop .section p.goods_price{color: #ff5c5c;height: 25px;line-height: 25px;margin-top: 10px;font-size: 20px;}
+.buyer-shop .section p.goods_price span{border: 1px solid;padding: 2px;border-radius: 5px;font-size: 12px;vertical-align: top;margin-right: 10px;}
+.buyer-shop .section i{position: absolute;top: 0;left: 0;width: 50px;height: 50px;background: url(../img/haitao_bg11.jpg);background-size: 100%;}
